@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/ic_personal_24"
+            android:title="Personal" />
+        <item
+            android:id="@+id/nav_bussiness"
+            android:icon="@drawable/ic_baseline_business_24"
+            android:title="Business" />
+        <item
+            android:id="@+id/nav_mtnmomo"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="MTN MOMO" />
+        <item
+            android:id="@+id/nav_investors"
+            android:icon="@drawable/ic_baseline_investors_24"
+            android:title="Investors" />
+        <item
+            android:id="@+id/nav_insurance"
+            android:icon="@drawable/ic_baselineinsurance_24"
+            android:title="insurance" />
+        <item
+            android:id="@+id/nav_careers"
+            android:icon="@drawable/ic_baseline_career_24"
+            android:title="Careers" />
+        <item
+            android:id="@+id/nav_ourimpact"
+            android:icon="@drawable/icourimpact_24"
+            android:title="Our Impact" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus_24"
+            android:title="About Us" />
+    </group>
+</menu>

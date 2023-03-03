@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mtnapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_personal"
+        android:name="com.example.mtnapp.ui.gallery.PersonalFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_personal" />
+
+    <fragment
+        android:id="@+id/nav_bussiness"
+        android:name="com.example.mtnapp.ui.slideshow.BussinessFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_bussiness" />
+    <fragment
+        android:id="@+id/nav_mtnmomo"
+        android:name="com.example.mtnapp.Mtnmomo"
+        android:label="MTN MOMO"
+        tools:layout="@layout/fragment_mtnmomo" />
+    <fragment
+        android:id="@+id/nav_investors"
+        android:name="com.example.mtnapp.Investors"
+        android:label="Investors"
+        tools:layout="@layout/fragment_investors" />
+    <fragment
+        android:id="@+id/nav_insurance"
+        android:name="com.example.mtnapp.Insurance"
+        android:label="Insurance"
+        tools:layout="@layout/fragment_insurance" />
+    <fragment
+        android:id="@+id/nav_careers"
+        android:name="com.example.mtnapp.Careers"
+        android:label="Careers"
+        tools:layout="@layout/fragment_careers" />
+    <fragment
+        android:id="@+id/nav_ourimpact"
+        android:name="com.example.mtnapp.Ourimpact"
+        android:label="Our Impact"
+        tools:layout="@layout/fragment_ourimpact" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.mtnapp.Aboutus"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>
